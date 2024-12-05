@@ -1,7 +1,5 @@
-from datetime import datetime
-
 class Guest:
-    def _init_(self, name, email, phone, document):
+    def __init__(self, name, email, phone, document):
         self.name = name
         self.email = email
         self.phone = phone
@@ -13,4 +11,4 @@ class Guest:
             "email": self.email,
             "phone": self.phone,
             "document": self.document
-            }
+        }
